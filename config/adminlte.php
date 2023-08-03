@@ -304,13 +304,17 @@ return [
         // Sidebar items:
         [
             'type' => 'sidebar-menu-search',
-            'text' => 'search',
+            'text' => 'Búsqueda de Módulos',
         ],
+        
+        //Perfil de usuario
+        ['header' => 'MI PERFIL'],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text' => 'Perfil de Usuario',
+            'url'  => 'user/profile',
+            'icon' => 'fas fa-fw fa-user',
         ],
+
         [
             'text'        => 'pages',
             'url'         => 'admin/pages',
@@ -318,19 +322,9 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'SUBPAGINAS'],
         [
-            'text' => 'profile',
-            'url'  => 'user/profile',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text'    => 'multilevel',
+            'text'    => 'multinivel',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
